@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-
+    
 }
 .hog{ 
    width: 50px;
@@ -136,3 +136,32 @@
      border-radius: 60px;
  }
 
+.food{
+    position: absolute;
+    margin-top: -680px;
+    width: 85%;
+    
+    transform: rotate(-7deg);
+    overflow: hidden;
+    
+    
+}
+
+@keyframes sun {
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translatex(100vh);
+    }
+  
+}
+.gf{
+    
+    margin-left: -80px;
+    width: 80px;
+    overflow: hidden;
+    height: 50px;
+    animation: sun  60s infinite linear;
+    animation-delay: 2s;
+}
