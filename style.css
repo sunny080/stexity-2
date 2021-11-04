@@ -163,5 +163,27 @@
     overflow: hidden;
     height: 50px;
     animation: sun  60s infinite linear;
-    animation-delay: 2s;
+    
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    .food{
+        display: none;
+
+    }
+    .fifa{
+        display: none;
+    }
+    
 }
