@@ -513,6 +513,7 @@ padding-bottom: 20px;
   flex-direction: column;
   border-radius: 10px;
   justify-content: center;
+  margin-bottom: 50px;
   
     
 }
@@ -631,4 +632,65 @@ padding-bottom: 20px;
     width: 90%;
     margin-left: 5%;
   }
+}
+
+.cenaa{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  background-color:rgb(95, 14, 14);
+
+
+
+}
+.gogo{
+  width: 72%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  
+
+}
+
+.fato{
+   height:50px  ;
+   width: 50px;
+   padding: 10px 0;
+   cursor: pointer;
+}
+#jmail{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.beam{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+
+
+
+}
+.kabki{
+  width: 100%;
+  display: flex;
+  background-color:rgb(95, 14, 14);
+
+  justify-content: center;
+}
+.kuni{
+
+  text-align: center;
+  width: 72%;
+  background-color: #fff;
+}
+
+.jung{
+text-align: center;
 }
